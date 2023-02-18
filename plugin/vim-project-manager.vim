@@ -26,11 +26,11 @@ let g:proj_mgr_blacklisted_session_entries = [
 "
 " Commands
 "
-:command! -nargs=0 -complete=file ProjectNew    :call project#new()
-:command! -nargs=0 -complete=file ProjectOpen   :call project#open()
-:command! -nargs=0 -complete=file ProjectImport :call project#import()
-:command! -nargs=0 -complete=file ProjectClose  :call project#close()
-:command! -nargs=0 -complete=file ProjectSave   :call project#save()
+:command! ProjectNew    :call project#new()
+:command! ProjectOpen   :call project#open()
+:command! ProjectImport :call project#import()
+:command! ProjectClose  :call project#close()
+:command! ProjectSave   :call project#save()
 
 "
 " Mappings
